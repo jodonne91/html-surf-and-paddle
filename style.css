@@ -1,7 +1,195 @@
+
+
 .header {
-	width: 100%;
-	height: 20%;
-	border: 1px solid black;
+	width: 1300px;
+	height: 523px;
+	position: relative;
 }
 
-.
+.blog_link {
+	text-decoration: none;
+}
+
+.blog {
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	left: 100px;
+	font-family: "Open Sans";
+	color: #003254;
+}
+
+.logo_text {
+	display: inline-block;
+	position: absolute;
+	height: 10px;
+	width: 300px;
+	top: 0px;
+	left: 50px;
+	color: black;
+	vertical-align: top;
+}
+
+.about_search {
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	right: 50px;
+	font-family: "Open Sans";
+	color: black;
+}
+
+.title {
+	display: inline-block;
+	position: absolute;
+	top: 35%;
+	left: 25%;
+	font-size: 2.5em;
+	font-family: "Open Sans";
+	color: white;
+}
+
+.main {
+	width: 1300px;
+	height: 1000px;
+	/*HEIGHT*/
+	font-family: "Open Sans", sans-serif;
+	position: relative;
+}
+
+.center_column {
+	display: inline-block;
+	height: 1000px;
+	width: 60%;
+	margin-left: 15%;
+	position: relative;
+	vertical-align: top;
+}
+
+.headline {
+	height: 100px;
+}
+
+.article {
+	height: 550px;
+}
+
+.links {
+	height: 350px;
+}
+
+.comment {
+  height: 32px;
+  background-color: #9FB3C1;
+  width: 150px;
+  display: inline-block;
+}
+
+.share {
+  background-color: #0069BA;
+  height: 32px;
+  width: 150px;
+  display: inline-block;
+}
+
+.upload {
+  background-color: #9FB3C1;
+  height: 32px;
+  width: 150px;
+  display: inline-block;
+}
+
+
+.img_box {
+  background-color: #5B6870;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.links h5 {
+  display: inline;
+  color: white;
+  top: 10px;
+
+}
+
+.sidebar {
+	display: inline-block;
+	width: 20%;
+	height: 1000px;
+	position: relative;
+}
+
+.anne_marie {
+  height: 300px;
+}
+
+.surfer_ad {
+  height: 400px;
+}
+
+.sidebar_section {
+  height: 300px;
+}
+
+.img {
+  margin-top: 9px;
+  margin-left: 8px;
+}
+
+
+.footer {
+	width: 1300px;
+	height: 20%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer_title {
+	text-align: center;
+}
+
+.footer_images {
+
+}
+
+.footer_article {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.article_layer {
+    background-color: #0071C5;
+    position: absolute;
+    opacity: .6;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.article_layer:hover{
+	opacity: 0;
+}
+
+.article_layer:hover + .article_header {
+	color: white;
+}
+
+.article_header{
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+}
+
+.footer_TIY_brag {
+	color: #083452;
+}
+
+.footer_posts {
+	font-size: 0;
+}
