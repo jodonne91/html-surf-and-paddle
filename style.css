@@ -19,8 +19,8 @@ html {
 .blog {
 	display: inline-block;
 	position: absolute;
-	top: 5px;
-	left: 100px;
+	top: 10px;
+	left: 142px;
 	font-family: "Open Sans";
 	color: #003254;
 }
@@ -30,17 +30,18 @@ html {
 	position: absolute;
 	height: 10px;
 	width: 300px;
-	top: 0px;
-	left: 50px;
-	color: black;
+	bottom: 10px;
+	left: 61px;
+	color: #083451;
 	vertical-align: top;
+	font-size: 17px;
 }
 
 .about_search {
 	display: inline-block;
 	position: absolute;
-	top: 5px;
-	right: 50px;
+	top: 20px;
+	right: 143px;
 	font-family: "Open Sans";
 }
 
@@ -52,6 +53,14 @@ html {
 	font-size: 2.5em;
 	font-family: "Open Sans";
 	color: white;
+}
+
+.title h5 {
+	color: #083451;
+	position: relative;
+	bottom: 44px;
+	left: 300px;
+	font-size: 16px;
 }
 
 .main {
@@ -67,6 +76,27 @@ html {
 	margin-right: 3%;
 	position: relative;
 	vertical-align: top;
+}
+
+.author_name {
+	margin: 0;
+	display: inline-block;
+	color: #2176B8;
+	position: relative;
+	bottom: 6px;
+	left: 5px;
+	font-size: 12px;
+}
+
+.author_date {
+	margin: 0;
+	color: #A0B4C1;
+	display: inline-block;
+	font-size: .75em;
+	position: relative;
+	bottom: 6px;
+	left: 18px;
+	font-size: 13px;
 }
 
 .headline {
@@ -102,6 +132,8 @@ html {
   background-color: #9FB3C1;
   width: 150px;
   display: inline-block;
+  position: relative;
+  bottom: 38px;
 }
 
 .share {
@@ -109,6 +141,8 @@ html {
   height: 32px;
   width: 150px;
   display: inline-block;
+  position: relative;
+  bottom: 38px;
 }
 
 .upload {
@@ -116,6 +150,8 @@ html {
   height: 32px;
   width: 150px;
   display: inline-block;
+  position: relative;
+  bottom: 38px;
 }
 
 
@@ -131,7 +167,10 @@ html {
   display: inline;
   color: white;
   top: 10px;
-
+  position: relative;
+  top: 9px;
+  	left: 5px;
+	font-weight: 100;
 }
 
 .sidebar {
@@ -163,11 +202,13 @@ html {
 .footer {
 	width: 1300px;
 	height: 20%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Oswald"
 }
 
 .footer_title {
 	text-align: center;
+	font-size: 1.8em;
+	color: #083452;
 }
 
 .footer_images {
@@ -179,7 +220,6 @@ html {
 	position: relative;
 	margin: 0;
 	padding: 0;
-	font-size: 16px;
 }
 
 .article_layer {
@@ -202,8 +242,10 @@ html {
 
 .article_header{
 	position: absolute;
-	bottom: 0;
-	left: 10px;
+	font-size: 30px;
+	top: 250px;
+	left: 15px;
+	color: #083452;
 }
 
 .footer_posts {
@@ -223,12 +265,23 @@ html {
 	display: inline-block;
 	position: relative;
 	left: 166px;
-	top: 30px;
+	top: 23px;
+}
+
+.TIY h5 {
+	display: inline-block;
+	color: #A3B3BF;
+	position: relative;
+	left: 9px;
+	bottom: 9px;
 }
 
 .nav_items{
 	display: inline-block;
 	color: #A3B3BF;
+	position: relative;
+	left: 468px;
+	top: 15px;
 }
 
 .nav_items h5 {
@@ -238,5 +291,5 @@ html {
 
 a {
 	text-decoration: none;
-	color: black;
+	/*color: black;*/
 }
