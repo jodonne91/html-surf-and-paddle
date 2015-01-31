@@ -206,12 +206,34 @@ html {
 	left: 10px;
 }
 
-.footer_TIY_brag {
-	color: #083452;
-}
-
 .footer_posts {
 	font-size: 0;
+}
+
+.footer_TIY {
+	background-color: #083452;
+	height: 90px;
+	width: 100%;
+	font-family: "Open Sans";
+	font-size: 1em;
+	font-weight: lighter;
+}
+
+.TIY {
+	display: inline-block;
+	position: relative;
+	left: 166px;
+	top: 30px;
+}
+
+.nav_items{
+	display: inline-block;
+	color: #A3B3BF;
+}
+
+.nav_items h5 {
+	display: inline-block;
+	color: #A3B3BF;
 }
 
 a {
