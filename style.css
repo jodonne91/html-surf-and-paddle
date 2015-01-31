@@ -106,7 +106,7 @@ html {
 .article {
 	color: #5E686F;
 	font-family: "Open Sans", sans-serif;
-	line-height: 1.65em;
+	line-height: 27px;
 	font-size: .95em;
 	margin-bottom: 4em;
 }
@@ -125,6 +125,7 @@ html {
 
 .links {
 	margin-top: 50px;
+	margin-bottom: 13px;
 }
 
 .comment {
@@ -169,8 +170,8 @@ html {
   top: 10px;
   position: relative;
   top: 9px;
-  	left: 5px;
-	font-weight: 100;
+  left: 5px;
+  font-weight: 100;
 }
 
 .sidebar {
@@ -182,15 +183,27 @@ html {
 .anne_marie {
   /*height: 300px;*/
   margin-left: 5em;
+  margin-top: 2em;
 }
 
 .surfer_ad {
 	text-align: right;
 }
 
+.surfer_ad h6 {
+	text-decoration: underline;
+	color: #9EB2BF;
+	position: relative;
+	margin: 0;
+	font-size: 14px;
+}
+
 .sidebar_section {
 	font-weight: 100;
 	letter-spacing: .35px;
+	position: relative;
+	left: 34px;
+	width: 90%;
 }
 
 .img {
@@ -202,7 +215,7 @@ html {
 .footer {
 	width: 1300px;
 	height: 20%;
-	font-family: "Oswald"
+	font-family: "Oswald";
 }
 
 .footer_title {
