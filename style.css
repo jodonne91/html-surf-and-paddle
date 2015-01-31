@@ -1,4 +1,6 @@
-
+/**{
+	border: 1px solid black;
+}*/
 
 html {
 	padding: 10px;
@@ -45,8 +47,8 @@ html {
 .title {
 	display: inline-block;
 	position: absolute;
-	top: 35%;
-	left: 25%;
+	top: 36%;
+	left: 15%;
 	font-size: 2.5em;
 	font-family: "Open Sans";
 	color: white;
@@ -54,16 +56,15 @@ html {
 
 .main {
 	width: 1300px;
-	height: 1000px;
-	/*HEIGHT*/
 	position: relative;
+	border-bottom: 1px solid #E1E7EA;
 }
 
 .center_column {
 	display: inline-block;
-	height: 1000px;
-	width: 60%;
-	margin-left: 15%;
+	width: 48%;
+	margin-left: 12%;
+	margin-right: 3%;
 	position: relative;
 	vertical-align: top;
 }
@@ -73,21 +74,27 @@ html {
 }
 
 .article {
-	height: 550px;
 	color: #5E686F;
 	font-family: "Open Sans", sans-serif;
+	line-height: 1.65em;
+	font-size: .95em;
+	margin-bottom: 4em;
 }
 
 .woah{
-color:#005BB2; 
-border-left: 2px solid #D5D5D5;
-padding-left: 15px;
-padding-top: 15px;
-height: 55px;
+	color:#005BB2; 
+	border-left: 2px solid #D5D5D5;
+	padding-left: 15px;
+	padding-top: 20px;
+	height: 45px;
+	margin-left: 6px;
+	font-weight: 200;
+	font-size: 1.8em;
+
 }
 
 .links {
-	height: 350px;
+	margin-top: 50px;
 }
 
 .comment {
@@ -129,21 +136,22 @@ height: 55px;
 
 .sidebar {
 	display: inline-block;
-	width: 20%;
-	height: 1000px;
+	width: 25%;
 	position: relative;
 }
 
 .anne_marie {
-  height: 300px;
+  /*height: 300px;*/
+  margin-left: 5em;
 }
 
 .surfer_ad {
-  height: 400px;
+	text-align: right;
 }
 
 .sidebar_section {
-  height: 300px;
+	font-weight: 100;
+	letter-spacing: .35px;
 }
 
 .img {
