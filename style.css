@@ -1,5 +1,9 @@
 
 
+html {
+	padding: 10px;
+}
+
 .header {
 	width: 1300px;
 	height: 523px;
@@ -36,7 +40,6 @@
 	top: 5px;
 	right: 50px;
 	font-family: "Open Sans";
-	color: black;
 }
 
 .title {
@@ -53,7 +56,6 @@
 	width: 1300px;
 	height: 1000px;
 	/*HEIGHT*/
-	font-family: "Open Sans", sans-serif;
 	position: relative;
 }
 
@@ -67,11 +69,21 @@
 }
 
 .headline {
-	height: 100px;
+	/*height: 100px;*/
 }
 
 .article {
 	height: 550px;
+	color: #5E686F;
+	font-family: "Open Sans", sans-serif;
+}
+
+.woah{
+color:#005BB2; 
+border-left: 2px solid #D5D5D5;
+padding-left: 15px;
+padding-top: 15px;
+height: 55px;
 }
 
 .links {
@@ -192,4 +204,9 @@
 
 .footer_posts {
 	font-size: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
