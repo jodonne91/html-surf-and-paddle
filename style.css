@@ -2,9 +2,7 @@
 	border: 1px solid black;
 }*/
 
-html {
-	padding: 10px;
-}
+
 
 .header {
 	width: 1300px;
@@ -45,6 +43,11 @@ html {
 	font-family: "Open Sans";
 }
 
+.about_search a {
+	text-decoration:none; 
+	color:#083451;
+}
+
 .title {
 	display: inline-block;
 	position: absolute;
@@ -53,6 +56,14 @@ html {
 	font-size: 2.5em;
 	font-family: "Open Sans";
 	color: white;
+}
+
+
+.title h1 {
+	margin:0; 
+	font-size:2.5em;
+	font-weight:lighter;
+	letter-spacing: -2px;
 }
 
 .title h5 {
@@ -76,6 +87,15 @@ html {
 	margin-right: 3%;
 	position: relative;
 	vertical-align: top;
+}
+
+.fantastic_headline {
+	color: #003255; 
+	font-size: 4em; 
+	line-height:1.1em; 
+	font-family: Oswald; 
+	font-weight: 300; 
+	margin:0;
 }
 
 .author_name {
@@ -120,7 +140,6 @@ html {
 	margin-left: 6px;
 	font-weight: 200;
 	font-size: 1.8em;
-
 }
 
 .links {
@@ -186,6 +205,21 @@ html {
   margin-top: 2em;
 }
 
+.anne_marie_header {
+	color: #1A71B5; 
+	margin-left: 20%;
+	margin-top:0;
+	margin-bottom:.2em; 
+	font-weight:100;
+}
+
+.social {
+	color:#9CB0BF; 
+	display:inline; 
+	margin:0;
+	font-weight:100;
+}
+
 .surfer_ad {
 	text-align: right;
 }
@@ -205,6 +239,22 @@ html {
 	left: 34px;
 	width: 90%;
 }
+
+.sidebar_section h3 {
+	margin-top:2em; 
+	margin-bottom:0; 
+	font-size: 1.2em; 
+	font-family:Oswald; 
+	color: #005FB5
+}
+
+.sidebar_section p {
+	color: #A5B7C4; 
+	font-size: 14px; 
+	line-height: 1.7em; 
+	margin-top: .8em;
+}
+
 
 .img {
   margin-top: 9px;
@@ -245,8 +295,16 @@ html {
     height: 100%;
 }
 
+.article_header:hover + .article_layer {
+	opacity: 0;
+}
+
 .article_layer:hover{
 	opacity: 0;
+}
+
+.article_header:hover {
+	color: white;
 }
 
 .article_layer:hover + .article_header {
